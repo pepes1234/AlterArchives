@@ -133,6 +133,10 @@ public partial class Form1 : Form
                 {
                     newList[counter] = y.Id.ToString();
                 }
+                else
+                {
+                    newList[counter] = "";
+                }
             }
         }
         return newList;
@@ -154,6 +158,10 @@ public partial class Form1 : Form
                 {
                     newList[counter] = y.Id.ToString();
                 }
+                else
+                {
+                    newList[counter] = "";
+                }
             }
         }
         return newList;
@@ -174,6 +182,10 @@ public partial class Form1 : Form
                 {
                     newList[counter] = y.Id.ToString();
                 }
+                else
+                {
+                    newList[counter] = "";
+                }
             }
         }
         return newList;
@@ -193,6 +205,10 @@ public partial class Form1 : Form
                 if(x == y.Descricao)
                 {
                     newList[counter] = y.Id.ToString();
+                }
+                else
+                {
+                    newList[counter] = "";
                 }
             }
         }
@@ -215,6 +231,10 @@ public partial class Form1 : Form
                 {
                     newList[counter] = y.Id.ToString();
                 }
+                else
+                {
+                    newList[counter] = "";
+                }
             }
         }
         return newList;
@@ -234,6 +254,10 @@ public partial class Form1 : Form
                 if(x == y.Descricao)
                 {
                     newList[counter] = y.Id.ToString();
+                }
+                else
+                {
+                    newList[counter] = "";
                 }
             }
         }
