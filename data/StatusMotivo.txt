@@ -1,0 +1,16 @@
+1;true;Falta de interação.;
+2;true;Já possuo plano, não tenho interesse em receber orçamento.;
+3;true;Já possui plano da empresa.;
+4;true;Cliente de outro estado.;
+5;true;Interior MG - Sem produto para ofertar.;
+6;true;Solicitação antiga, não tem mais interesse.;
+7;true;Esta gravida, interesse em cobrir o parto.;
+8;true;Não responde o whatsapp.;
+9;true;Não atende as ligações.;
+10;true;Cliente inelegivel para o produto.;
+11;true;Sem rede de atendimento.;
+12;true;Apenas pesquisando preço.;
+13;true;Fechou com outra corretora.;
+14;true;Não solicitou cotação.;
+15;true;Rede credenciada insatisfatória.;
+16;true;Sem condições financeiras.;

@@ -1,0 +1,12 @@
+1;Individual;
+2;Familiar;
+3;PME;
+4;Adesão;
+5;Empresarial;
+6;Individual Odonto;
+7;PME Odonto;
+8;Adesão Odonto;
+9;Empresarial Odonto;
+10;PME Adesão;
+11;Vida;
+12;Auto;
