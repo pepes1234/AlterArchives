@@ -1649,11 +1649,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucas\\Documents\\GitHub\\AlterArchives\\AlterArchives.csproj",
+      "projectUniqueName": "C:\\Users\\Lucas\\Documents\\Programação\\AlterArchives\\AlterArchives.csproj",
       "projectName": "AlterArchives",
-      "projectPath": "C:\\Users\\Lucas\\Documents\\GitHub\\AlterArchives\\AlterArchives.csproj",
+      "projectPath": "C:\\Users\\Lucas\\Documents\\Programação\\AlterArchives\\AlterArchives.csproj",
       "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucas\\Documents\\GitHub\\AlterArchives\\obj\\",
+      "outputPath": "C:\\Users\\Lucas\\Documents\\Programação\\AlterArchives\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1714,7 +1714,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }
