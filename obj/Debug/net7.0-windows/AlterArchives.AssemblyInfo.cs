@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlterArchives")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b833d321bb6a7dfd3ef592cd1e25a14c755456d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebf8aa8e961e6638c4c9549dd5bf0bdb1be44080")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlterArchives")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlterArchives")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
