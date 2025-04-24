@@ -9,18 +9,17 @@
 
 ## ✨ Alterador de arquivos
 
-**AlterArchives** é um conector de sistemas,desenvolvido em C# e Windows Forms .NET 7. Funcionalidade de transferencia de dados que não conversam via API: A partir um Excel, aplica transformações/mapeamentos e obtém um Excel pronto para o sistema destino.
+**AlterArchives** é um conector de sistemas,desenvolvido em C# e Windows Forms .NET 7. Funcionalidade de transferencia de dados que não conversam via API: A partir um Excel, aplica transformações/mapeamentos e obtém um Excel pronto para inserção em outro sistema.
 
 ---
 
 ## 🚀 Funcionalidades Principais
 
 - 📥 **Importação de Excel**: lê a primeira planilha de arquivos `.xlsx`.
-- 🔄 **Transformação de Dados**: formata colunas, datas e aplica regras de negócio (flags, concatenações).
+- 🔄 **Transformação de Dados**: formata colunas, datas.
 - 📂 **Mapeamento**: usa arquivos `.txt` na pasta `data/` para converter descrições em IDs.
 - 💾 **Geração de Excel**: cria `.xlsx` com cabeçalhos padronizados para o sistema destino.
 - 🛠️ **Interface Intuitiva**: selecione origem, nome do arquivo e cole corretores.
-- 🐞 **Tratamento de Erros**: mensagens de sucesso ❇️ ou falha ❌ durante o processo.
 
 ---
 
@@ -31,7 +30,6 @@
 | .NET SDK        | 7.0             |
 | C#              | 10              |
 | Windows Forms   | WinForms        |
-| EPPlus          | 5.8.0           |
 
 ---
 
@@ -48,11 +46,10 @@
 ```bash
 # 1. Clone o repositório
 $ git clone https://github.com/pepes1234/AlterArchives.git
+# 2. Entre na pasta principal
 $ cd AlterArchives
-
-# 2. Restaure pacotes via .NET CLI
-$ dotnet restore AlterArchives.sln
-# Ou abra no Visual Studio e restaure NuGet
+# 3. Rodar o programa
+$ dotnet run
 ```
 
 ---
@@ -63,19 +60,18 @@ $ dotnet restore AlterArchives.sln
    - `Corretores.txt`, `Fonte.txt`, `Modalidade.txt`, `Produto.txt`, `Status.txt`, `StatusMotivo.txt`
 2. Formato dos `.txt` (sem cabeçalho):
    ```txt
-   <ID>;<Descrição>;<Ativo>
+   {ID};{Descrição};{Ativo}
    ```
-3. Excel de origem: mínimo 31 colunas na ordem esperada pela classe `Formulario`.
+3. Excel de origem: mínimo 31 colunas.
 
 ---
 
 ## ▶️ Uso
 
-1. Execute `AlterArchives.exe` ou rode pelo Visual Studio.
-2. Em **Nome do arquivo**, digite o nome desejado (sem `.xlsx`).
-3. Cole as descrições de corretores em **Nomes** e clique em **Abrir arquivo**.
-4. Selecione o Excel de origem.
-5. Aguarde a mensagem **Sucesso!** e encontre o arquivo gerado na raiz.
+1. Em **Nome do arquivo**, digite o nome desejado (sem `.xlsx`).
+2. Cole as descrições de corretores em **Nomes** e clique em **Abrir arquivo**.
+3. Selecione o Excel de origem.
+4. Aguarde a mensagem **Sucesso!** e encontre o arquivo gerado na raiz.
 
 ---
 
