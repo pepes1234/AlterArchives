@@ -7,9 +7,9 @@
   <img src="https://img.shields.io/badge/License-MIT-brightgreen" alt="License" />
 </p>
 
-## ✨ Descrição
+## ✨ Alterador de arquivos
 
-**AlterArchives** é um conector poderoso entre sistemas ✉️➡️📥, desenvolvido em C# com Windows Forms e .NET 7. Crie pontes entre sistemas que não conversam via API: você fornece um Excel de origem, aplica transformações/mapeamentos e obtém um Excel pronto para o sistema destino.
+**AlterArchives** é um conector de sistemas,desenvolvido em C# e Windows Forms .NET 7. Funcionalidade de transferencia de dados que não conversam via API: A partir um Excel, aplica transformações/mapeamentos e obtém um Excel pronto para o sistema destino.
 
 ---
 
@@ -93,18 +93,3 @@ AlterArchives/
 ```
 
 ---
-
-## 🤝 Contribuindo
-
-1. Faça um fork 🍴
-2. Crie uma branch: `feature/nova-funcionalidade`
-3. Commit suas mudanças: `git commit -m '✨ adiciona feature'`
-4. Envie para o branch: `git push origin feature/nova-funcionalidade`
-5. Abra um Pull Request 🚀
-
----
-
-## 📄 Licença
-
-Distribuído sob a licença **MIT**. Veja `LICENSE` para mais detalhes.
-
