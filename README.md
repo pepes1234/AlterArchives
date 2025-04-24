@@ -22,19 +22,6 @@
 - 🛠️ **Interface Intuitiva**: selecione origem, nome do arquivo e cole corretores.
 - 🐞 **Tratamento de Erros**: mensagens de sucesso ❇️ ou falha ❌ durante o processo.
 
-
-## 📸 Capturas de Tela
-
-> **Interface Principal**
-
-![Interface AlterArchives](docs/screenshot.png)
-
-> **Exemplo de Mapeamento**
-
-![Estrutura de Dados](docs/mapping.png)
-
-*(Adicione imagens em `docs/` e atualize os paths acima!)*
-
 ---
 
 ## ⚙️ Tecnologias
@@ -97,7 +84,6 @@ $ dotnet restore AlterArchives.sln
 ```
 AlterArchives/
 ├── data/                   # Arquivos de mapeamento (.txt)
-├── docs/                   # Imagens e capturas de tela
 ├── Model/                  # Entidades (Formulario, Corretores, ...)
 ├── Services/               # Leitura e lógica de mapeamento (.txt)
 ├── Form1.cs                # Lógica do Windows Form
