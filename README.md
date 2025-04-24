@@ -7,9 +7,9 @@
   <img src="https://img.shields.io/badge/License-MIT-brightgreen" alt="License" />
 </p>
 
-## ✨ Alterador de arquivos
+##  Alterador de arquivos
 
-**AlterArchives** é um conector de sistemas,desenvolvido em C# e Windows Forms .NET 7. Funcionalidade de transferencia de dados que não conversam via API: A partir um Excel, aplica transformações/mapeamentos e obtém um Excel pronto para inserção em outro sistema.
+O **Alterador de arquivos** é um conector de sistemas,desenvolvido em C# e Windows Forms .NET 7. Funcionalidade de transferencia de dados que não conversam via API: A partir um Excel, aplica transformações/mapeamentos e obtém um Excel pronto para inserção em outro sistema.
 
 ---
 
@@ -69,6 +69,9 @@ $ dotnet run
 ## ▶️ Uso
 
 1. Em **Nome do arquivo**, digite o nome desejado (sem `.xlsx`).
+<p align="center">
+  <img src="./Interface.png" alt=".NET 7.0" />
+</p>
 2. Cole as descrições de corretores em **Nomes** e clique em **Abrir arquivo**.
 3. Selecione o Excel de origem.
 4. Aguarde a mensagem **Sucesso!** e encontre o arquivo gerado na raiz.

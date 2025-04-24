@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Iw6AsgLND6w=",
+  "dgSpecHash": "3aLmgKJGdRg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Documents\\Programação\\AlterArchives\\AlterArchives.csproj",
+  "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\AlterArchives\\AlterArchives.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\enums.net\\4.0.0\\enums.net.4.0.0.nupkg.sha512",
